@@ -42,7 +42,10 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'devise', '~> 4.3.0'
   gem 'faker', '~> 1.7.3'
+  gem 'graphql', '~> 1.6.4'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
 
+
+gem 'graphiql-rails', group: :development
